@@ -14,6 +14,8 @@
 		EB80BE941B1319C30063FB3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB80BE931B1319C30063FB3B /* Images.xcassets */; };
 		EB80BE971B1319C30063FB3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB80BE951B1319C30063FB3B /* LaunchScreen.xib */; };
 		EB80BEA31B1319C30063FB3B /* aes256Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB80BEA21B1319C30063FB3B /* aes256Tests.m */; };
+		EB80BEAE1B131AC00063FB3B /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EB80BEAD1B131AC00063FB3B /* NSData+Base64.m */; };
+		EB80BEB11B131ACD0063FB3B /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = EB80BEB01B131ACD0063FB3B /* NSData+AES256.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		EB80BE9C1B1319C30063FB3B /* aes256Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aes256Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB80BEA11B1319C30063FB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB80BEA21B1319C30063FB3B /* aes256Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aes256Tests.m; sourceTree = "<group>"; };
+		EB80BEAC1B131ABC0063FB3B /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		EB80BEAD1B131AC00063FB3B /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		EB80BEAF1B131AC50063FB3B /* NSData+AES256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		EB80BEB01B131ACD0063FB3B /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		EB80BE851B1319C30063FB3B /* aes256 */ = {
 			isa = PBXGroup;
 			children = (
+				EB80BEB01B131ACD0063FB3B /* NSData+AES256.m */,
+				EB80BEAF1B131AC50063FB3B /* NSData+AES256.h */,
+				EB80BEAD1B131AC00063FB3B /* NSData+Base64.m */,
+				EB80BEAC1B131ABC0063FB3B /* NSData+Base64.h */,
 				EB80BE8A1B1319C30063FB3B /* AppDelegate.h */,
 				EB80BE8B1B1319C30063FB3B /* AppDelegate.m */,
 				EB80BE8D1B1319C30063FB3B /* ViewController.h */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB80BE8F1B1319C30063FB3B /* ViewController.m in Sources */,
+				EB80BEB11B131ACD0063FB3B /* NSData+AES256.m in Sources */,
+				EB80BEAE1B131AC00063FB3B /* NSData+Base64.m in Sources */,
 				EB80BE8C1B1319C30063FB3B /* AppDelegate.m in Sources */,
 				EB80BE891B1319C30063FB3B /* main.m in Sources */,
 			);
